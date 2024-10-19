@@ -2,7 +2,7 @@ import Button from "./components/button"
 
 const App = () => {
   return (
-    <Button />
+    <Button to="mailto:email@test.com">Test Button</Button>
   )
 }
 
