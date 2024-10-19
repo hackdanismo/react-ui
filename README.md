@@ -1,6 +1,8 @@
 # React UI
 This is an open-source `React Library` released under the [MIT Licence](https://github.com/hackdanismo/react-ui/blob/main/LICENSE). This is created by `Dan Jackson` under the `Hackdanismo` `GitHub` account.
 
+The library is written in `JavaScript` rather than `TypeScript` to avoid the initial setup required to use `TypeScript` within a project.
+
 ## Documentation
 The `Documentation` is written in the form of a [Wiki](https://github.com/hackdanismo/react-ui/wiki).
 
