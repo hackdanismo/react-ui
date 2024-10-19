@@ -1,6 +1,8 @@
+import Button from "./components/button"
+
 const App = () => {
   return (
-    <h1>Hello, World</h1>
+    <Button to="https://www.google.com" openAsTab>Test Button</Button>
   )
 }
 
