@@ -36,7 +36,7 @@ const Button = ({
       // The attribute will only be rendered if the prop has a value
       id={id ? id : undefined}
       // Conditionally add the target attribute if openAsTab is true
-      target={openAsTab ? "blank" : undefined}
+      target={openAsTab ? "_blank" : undefined}
       // Conditionally add the rel attribute to protect the referrer URL when a link opens in a new tab
       rel={openAsTab ? "noopener noreferrer" : undefined}
       // Spread any additional props
