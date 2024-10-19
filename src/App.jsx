@@ -1,8 +1,16 @@
 import Button from "./components/button"
+import Heading from "./components/heading"
 
 const App = () => {
+  const showAlert = () => {
+    alert("Hello, World");
+  }
+
   return (
-    <Button to="https://www.google.com" openAsTab>Test Button</Button>
+    <>
+      <Heading>Main Heading</Heading>
+      <Button onClick={showAlert}>Test Button</Button>
+    </>
   )
 }
 
