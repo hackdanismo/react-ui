@@ -1,3 +1,5 @@
+import PropTypes from "prop-types"
+
 const Button = ({ 
   type = "button",
   to, 
@@ -65,6 +67,18 @@ const Button = ({
     // Call functions to render the component as a link or as a button
     isLink ? renderAsLink() : renderAsButton()
   )
+}
+
+// Type checking applied using prop-types
+Button.propTypes = {
+  type: PropTypes.oneOf(["button", "submit", "reset"]),
+  to: PropTypes.string, 
+  className: PropTypes.string, 
+  style: PropTypes.string,
+  id: PropTypes.string,
+  onClick: PropTypes.func,
+  openAsTab: PropTypes.bool,
+  children: PropTypes.any
 }
 
 export default Button
