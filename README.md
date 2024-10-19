@@ -11,4 +11,4 @@ The `repository` contains the `React` components that form the library. This req
 $ git clone git@github.com:hackdanismo/react-ui.git
 ```
 
-Once cloned, `cd` into the `react-ui` directory and install and `dependencies` or `packages` that maybe required.
+Once cloned, `cd` into the `react-ui` directory and install any `dependencies` or `packages` that maybe required.
